@@ -1,0 +1,12 @@
+{
+    "java.project.sourcePaths": [
+        "src\\everyday",
+        "src"
+    ], "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ],
+    "files.associations": {
+        "iostream": "cpp",
+        "string.h": "c"
+    }
+}

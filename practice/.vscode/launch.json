@@ -1,0 +1,107 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch ClientD2",
+            "request": "launch",
+            "mainClass": "ClientD2",
+            "projectName": "practice_d9a3f1e2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sort",
+            "request": "launch",
+            "mainClass": "Sort",
+            "projectName": "practice_d9a3f1e2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Test10",
+            "request": "launch",
+            "mainClass": "Test10",
+            "projectName": "practice_d9a3f1e2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Zhaoyinwk2",
+            "request": "launch",
+            "mainClass": "Zhaoyinwk2",
+            "projectName": "practice_d9a3f1e2"
+        },
+        {
+            "type": "java",
+            "name": "Launch Zhaoyinwk2",
+            "request": "launch",
+            "mainClass": "everyday.Zhaoyinwk2",
+            "projectName": "practice_d9a3f1e2"
+        },
+        {
+            "type": "java",
+            "name": "Launch zhaoyinwk2",
+            "request": "launch",
+            "mainClass": "everyday.zhaoyinwk2",
+            "projectName": "practice_d9a3f1e2"
+        },
+        {
+            "type": "java",
+            "name": "Launch test8",
+            "request": "launch",
+            "mainClass": "everyday.test8",
+            "projectName": "practice_d9a3f1e2"
+        },
+        {
+            "type": "java",
+            "name": "Launch gpa",
+            "request": "launch",
+            "mainClass": "everyday.gpa",
+            "projectName": "practice_d9a3f1e2"
+        },
+        {
+            "name": "g++.exe - 生成和调试活动文件",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "C:/MinGW/bin",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "C/C++: g++.exe 生成活动文件"
+        },
+        {
+            "name": "(gdb) 启动",
+            "type": "cppdbg",
+            "request": "launch",
+            "program":  "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "为 gdb 启用整齐打印",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "将反汇编风格设置为 Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+            ]
+        }
+    ]
+}
